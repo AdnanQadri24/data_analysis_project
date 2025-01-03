@@ -7,6 +7,7 @@ Sales Data Analysis Conclusion for All Locations
 2. Transactions by Day
   - The highest transaction activity occurred on Monday, Thursday, and Friday, indicating that weekdays have higher transaction rates than weekends.
   - Saturday was the lowest transaction day, possibly indicating less customer shopping behavior on weekends.
+
 3. Transactions by Hour
   - 7:00 a.m. to 10:00 a.m. is the peak transaction time, indicating high customer activity in the morning. (Perhaps customers are looking for a drink to start their day, making this a strategic time for promotions on hot beverages such as coffee and tea.)
   - Activity decreases after 10:00 a.m., with the lowest number of transactions occurring in the evening. (It may be necessary to adjust operating hours or promotional activities during these off-peak hours.)
@@ -25,7 +26,6 @@ Sales Data Analysis Conclusion for All Locations
 
 
 Recommendations for the Company
-
 1. Focus on Weekdays
   - Increase promotions and product stock during weekdays, especially Monday, Thursday, and Friday. (Consider special marketing campaigns or discounts to encourage more purchases on these days.)
 
