@@ -1,52 +1,93 @@
 # ☕ Coffee Shop Sales & Performance Analysis
 
-![Data Analysis Project](https://img.shields.io/badge/Data%20Analysis-Excel-green) 
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![Power Query](https://img.shields.io/badge/Power_Query-F2C94C?style=for-the-badge&logo=powerbi&logoColor=black)
+
+---
 
 ## 📌 Project Overview
-Proyek ini bertujuan untuk menganalisis data transaksi penjualan *Coffee Shop* guna mengidentifikasi tren penjualan, perilaku pembelian pelanggan, serta performa produk. Melalui proses *data cleaning*, eksplorasi data, dan visualisasi, proyek ini memberikan rekomendasi berbasis data (*data-driven recommendations*) untuk membantu pemilik kedai meningkatkan pendapatan dan efisiensi operasional.
+
+Proyek ini bertujuan untuk menganalisis performa penjualan sebuah jaringan *coffee shop* guna memahami tren pendapatan bulanan, pola perilaku transaksi harian dan jam operasional, serta preferensi produk pelanggan.
+
+Dengan memanfaatkan **Power Query** untuk pembersihan data (*data cleaning*) dan **Excel Pivot Tables & Charts** untuk visualisasi interaktif, proyek ini menghasilkan *business insights* yang dapat ditindaklanjuti untuk pengoptimalan strategi pemasaran dan efisiensi operasional.
 
 ---
 
-## 🛠️ Tools & Technologies
-* **Microsoft Excel / Power Query:** Pembersihan data, transformasi kolom, dan penanganan nilai kosong.
-* **Pivot Tables & Formulas:** Agregasi data penjualan, perhitungan pendapatan, dan statistik tren harian/bulanan.
-* **Excel Dashboard:** Visualisasi data interaktif untuk penyajian insight bisnis.
+## 📊 Interactive Dashboard Preview
+
+![Coffee Shop Sales Dashboard](dashboard/Display_1.png)
 
 ---
 
-## 🧹 Data Cleaning & Preparation
-Sebelum analisis dilakukan, data mentah (`Coffee Shop Sales(before).xlsx`) diproses menjadi data bersih (`after.xlsx`) dengan langkah-langkah berikut:
-1. **Handling Missing & Duplicate Data:** Menghapus entri ganda dan menangani nilai yang hilang pada catatan transaksi.
-2. **Data Formatting:** Memastikan tipe data pada kolom tanggal, waktu, jumlah (*quantity*), dan harga (*unit price*) sudah sesuai.
-3. **Feature Engineering:** Menambahkan kolom baru seperti *Revenue* (`Quantity` × `Unit Price`), *Hour of Day*, dan *Day Name* untuk memudahkan analisis tren waktu.
+![Coffee Shop Sales Dashboard](dashboard/Display_2.png)
 
 ---
 
-## 📈 Key Insights
-Berdasarkan hasil analisis data transaksi, diperoleh beberapa temuan utama:
+![Coffee Shop Sales Dashboard](dashboard/Display_3.png)
 
-1. **Produk Terlaris (Top Selling Products):**
-   * Kategori minuman kopi (seperti *Latte* dan *Cappuccino*) menyumbang proporsi pendapatan terbesar.
-2. **Jam Sibuk Operasional (Peak Hours):**
-   * Penjualan tertinggi terjadi pada jam jam sibuk pagi (08:00 - 10:00) dan sore hari (15:00 - 17:00).
-3. **Tren Penjualan Harian:**
-   * Hari kerja (*weekdays*) mencatatkan volume transaksi minuman yang lebih tinggi dibanding akhir pekan (*weekends*).
-
----
-
-## 💡 Business Recommendations
-Berdasarkan *insights* yang ditemukan, berikut strategi bisnis yang disarankan:
-* **Promosi Jam Sibuk:** Buat paket *bundling* kopi + pastry pada jam sibuk pagi untuk meningkatkan *Average Order Value* (AOV).
-* **Optimization Staffing:** Alokasikan lebih banyak staf pada jam puncak (08:00 - 10:00) untuk mempercepat pelayanan dan mengurangi antrean.
-* **Program Loyalitas Akhir Pekan:** Tawarkan diskon atau *loyalty points* berlipat di akhir pekan untuk meningkatkan volume penjualan saat jam lengang.
+> **Catatan:** Gunakan **Slicer** pada file Excel untuk memfilter data berdasarkan lokasi cabang (**Astoria, Hell's Kitchen, Lower Manhattan**).
 
 ---
 
 ## 📂 Repository Structure
+
 ```text
-Coffee Shop Sales/
-├── Coffee Shop Sales(before).xlsx   # Data mentah sebelum dibersihkan
-├── after.xlsx                        # Data bersih hasil olahan & Pivot
-├── Kesimpulan Bisnis.txt             # Teks catatan kesimpulan bisnis
-└── README.md                         # Dokumentasi utama proyek
+coffee-shop-sales-analysis/
+├── README.md
+├── docs/
+│   └── business_insights.md
+├── data/
+│   ├── Coffee Shop Sales(before).xlsx
+│   └── after.xlsx
+└── dashboard/
+    ├── Display_1.png
+    ├── Display_2.png
+    └── Display_2.png
+        
+```
+
+---
+
+## 🔑 Key Insights & Business Highlights
+
+### 📈 Monthly Revenue Trend
+- Pendapatan menunjukkan pertumbuhan yang positif dari bulan **Februari (~$25K)** hingga mencapai puncaknya di **Juni (~$55K+)**.
+
+### ⏰ Morning Rush Hours
+- Puncak transaksi terjadi pada pukul **08.00–10.00 pagi**, dengan volume tertinggi sekitar **jam 10.00** (>5.000 transaksi), menunjukkan tingginya permintaan sebelum aktivitas kerja dimulai.
+
+### 📅 Daily Sales Pattern
+- Penjualan tertinggi terkonsentrasi pada **weekdays**, terutama **Kamis, Senin, dan Rabu**.
+- **Sabtu** merupakan hari dengan volume transaksi terendah.
+
+### ☕ Best-Selling Categories & Products
+- Kategori **Coffee** (20.025 transaksi) dan **Tea** (16.260 transaksi) mendominasi total penjualan.
+- **Top 3 Best-Selling Products:**
+  1. Brewed Chai Tea
+  2. Gourmet Brewed Coffee
+  3. Barista Espresso
+
+---
+
+## 💡 Business Recommendations
+
+### 🚀 Optimize Morning Operations
+- Tingkatkan jumlah barista dan persediaan produk terlaris pada pukul **08.00–10.00 pagi** untuk mengurangi waktu antrean.
+
+### 🎯 Weekend Promotions
+- Terapkan promo bundling akhir pekan (misalnya **minuman + bakery**) untuk meningkatkan penjualan pada hari Sabtu.
+
+### 🥐 Cross-Selling Strategy
+- Dorong staf untuk menawarkan produk bakery seperti **Scone** atau **Pastry** sebagai pendamping minuman panas.
+
+> 📖 Untuk analisis yang lebih lengkap beserta rekomendasi bisnis secara mendalam, silakan baca **docs/business_insights.md**.
+
+---
+
+## 👤 Author
+
+**Adnan Al Qadri**  
+*Data Analyst Enthusiast*
+
+- GitHub: **[@AdnanQadri24](https://github.com/AdnanQadri24)**
+- LinkedIn: *https://www.linkedin.com/in/adnan-al-qadri-a08811296/*
