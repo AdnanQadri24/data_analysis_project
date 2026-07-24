@@ -1,47 +1,47 @@
----
+📊 Hasil Analisis Data
+1. Tren Pendapatan Bulanan (Monthly Revenue)
+Pertumbuhan Positif: Pendapatan (khususnya pada cabang utama seperti Astoria) sempat mengalami sedikit penurunan pada bulan Februari ($25.105), namun menunjukkan tren kenaikan yang kuat dan konsisten dari Maret hingga mencapai puncaknya pada bulan Juni ($55.083).
 
-### **Kesimpulan Analisis Data Penjualan Untuk Keseluruhan Lokasi**
+Performa Keseluruhan: Secara akumulatif di seluruh lokasi, total pendapatan bulanan menunjukkan kurva pertumbuhan yang stabil dari semester pertama tahun berjalan.
 
-1. **Pendapatan Total Bulanan**
-   - Pendapatan meningkat secara konsisten dari bulan Januari hingga Juni.
-   - Bulan dengan pendapatan tertinggi adalah bulan Juni dengan total pendapatan $166,486, menunjukkan adanya pertumbuhan yang positif setiap bulan. **(Perlu diinvestigasi lebih lanjut apakah ada faktor eksternal, seperti promosi atau musim, yang mempengaruhi kenaikan ini.)**
+2. Pola Transaksi Harian (Transactions by Day)
+Puncak Penjualan: Aktivitas belanja pelanggan tertinggi terjadi pada hari kerja (weekdays), terutama Kamis, Senin, dan Rabu.
 
-2. **Transaksi Berdasarkan Hari**
-   - Aktivitas transaksi tertinggi terjadi pada Hari Senin, Kamis, dan Jumat, menunjukkan bahwa hari kerja memiliki tingkat transaksi yang lebih tinggi dibandingkan akhir pekan.
-   - Hari Sabtu adalah hari dengan transaksi terendah, yang mungkin menunjukkan perilaku pelanggan yang lebih sedikit berbelanja pada akhir pekan.
-3. **Transaksi Berdasarkan Jam**
-   - Jam 07.00 hingga 10.00 merupakan puncak transaksi, yang menunjukkan tingginya aktivitas pelanggan pada pagi hari. **(Mungkin pelanggan mencari minuman untuk memulai hari, menjadikan jam ini waktu yang strategis untuk promosi minuman hangat seperti kopi dan teh.)**
-   - Aktivitas menurun setelah jam 10.00, dengan jumlah transaksi terendah terjadi di malam hari. **(Mungkin perlu penyesuaian jam operasional atau kegiatan promosi di jam-jam sepi ini.)**
+Titik Terendah: Hari Sabtu mencatatkan jumlah transaksi paling rendah sepanjang minggu (sekitar ~6.940 transaksi), diikuti oleh hari Selasa.
 
-4. **Kategori Produk Terlaris**
-   - Kopi adalah kategori dengan transaksi tertinggi (58,416 transaksi) diikuti oleh Teh (45,449 transaksi). Ini menunjukkan bahwa produk berbasis minuman adalah pendorong utama penjualan.
-   - Produk dengan transaksi rendah seperti Packaged Chocolate dan Branded menunjukkan peluang untuk strategi promosi atau penghapusan produk tidak laku. **(Pertimbangkan penawaran diskon atau bundling untuk produk ini agar lebih menarik bagi pelanggan.)**
+Stabilitas: Secara umum, pola penjualan antarharian cukup merata di kisaran 6.900–7.400 transaksi per hari.
 
-5. **Produk Terpopuler**
-   - Produk terlaris adalah Brewed Chai Tea, diikuti oleh Gourmet Brewed Coffee dan Barista Espresso, yang semuanya merupakan minuman panas. **(Produk-produk ini bisa mendapatkan promosi lebih intensif untuk mempertahankan dominasi pasar mereka.)**
+3. Jam Sibuk Operasional (Transactions by Hour)
+Puncak Jam Sibuk (Morning Rush): Lonjakan transaksi terbesar terjadi pada jam 08.00 – 10.00 pagi, dengan titik puncak tertinggi pada pukul 10.00 (>5.000 transaksi). Ini mengindikasikan bahwa mayoritas pelanggan membeli produk untuk kebutuhan pagi/sebelum beraktivitas.
 
-6. **Lokasi Penjualan**
-   - Lokasi Astoria menunjukkan kontribusi tertinggi terhadap total penjualan dibandingkan lokasi lainnya. **(Lokasi ini perlu difokuskan dalam strategi pemasaran lebih lanjut.)**
-   - Disarankan untuk meningkatkan strategi pemasaran dan operasional di wilayah ini guna memaksimalkan pendapatan. **(Evaluasi lebih dalam tentang faktor lokal yang mungkin berkontribusi terhadap hasil yang lebih baik di Astoria.)**
-   - Wilayah lain, seperti Hell's Kitchen dan Lower Manhattan, dapat menjadi target pengembangan dengan strategi promosi yang lebih menarik. **(Perlu analisis lebih lanjut mengenai demografi atau kebutuhan pasar di lokasi-lokasi ini.)**
+Pola Setelah Jam Sibuk: Mulai pukul 11.00 hingga jam tutup (19.00), volume transaksi melandai namun berada di tingkat yang sangat stabil (kisaran 3.300–3.600 transaksi per jam).
 
----
+4. Performa Produk & Kategori Terlaris
+Kategori Utama: Kategori Coffee (20.025 transaksi) dan Tea (16.260 transaksi) merupakan kontributor terbesar dan pendorong utama (main driver) bisnis. Kategori pendamping seperti Bakery berada di posisi ketiga (7.289 transaksi).
 
-### **Saran Terhadap Perusahaan**
+Produk Terfavorit: Top 3 produk terlaris didominasi oleh varian minuman panas:
 
-1. **Fokus pada Hari Kerja**
-   - Tingkatkan promosi dan stok produk selama hari kerja, terutama Senin, Kamis, dan Jumat. **(Pertimbangkan kampanye pemasaran atau diskon khusus untuk mendorong lebih banyak pembelian pada hari-hari ini.)**
+Brewed Chai Tea
 
-2. **Optimalisasi Jam Operasional**
-   - Pastikan ketersediaan produk utama seperti kopi dan teh pada jam sibuk (07.00-10.00) untuk memaksimalkan pendapatan. **(Periksa apakah ada produk lain yang perlu dipromosikan pada jam-jam tertentu untuk memanfaatkan waktu sibuk ini.)**
+Gourmet Brewed Coffee
 
-3. **Promosi pada Hari Minggu**
-   - Adakan promosi khusus pada hari libur (Sabtu & Minggu) untuk meningkatkan transaksi di hari tersebut. **(Untuk hari Sabtu, bisa dicoba dengan memulai promosi lebih awal atau menambah variasi produk untuk menarik lebih banyak pelanggan.)**
+Barista Espresso
 
-4. **Diversifikasi Produk**
-   - Pertimbangkan promosi atau inovasi pada produk yang kurang laku seperti Packaged Chocolate dan branded untuk meningkatkan daya tariknya. **(Bisa juga dengan memodifikasi kemasan atau menawarkan produk ini dalam paket bundling dengan produk terlaris.)**
+Produk Kurang Laku (Slow-Moving): Kategori seperti Packaged Chocolate (110 transaksi) dan Branded Merchandise (279 transaksi) memiliki permintaan yang sangat rendah.
 
-5. **Fokus pada Produk Populer**
-   - Tingkatkan promosi top 3 produk terlaris seperti Brewed Chai Tea, Gourmet Brewed Coffee, dan Barista Espresso untuk menjaga momentum penjualan. **(Perhatikan apakah ada tren musiman atau acara lokal yang bisa mendukung kampanye ini lebih lanjut.)**
+💡 Rekomendasi Bisnis & Strategi
+Optimalisasi Peak Hours Pagi (08.00 - 10.00)
 
----
+Pastikan ketersediaan stok produk utama (Brewed Chai Tea, Gourmet Coffee, Espresso) serta jumlah staf barista tercukupi pada jam sibuk pagi untuk menghindari antrean panjang dan memaksimalkan kecepatan layanan (speed of service).
+
+Strategi Mendorong Penjualan Akhir Pekan (Khususnya Sabtu)
+
+Adakan promosi khusus hari Sabtu, seperti weekend bundle (kombinasi Kopi/Teh dengan Bakery) atau program poin loyalitas berlipat untuk menarik pelanggan datang di akhir pekan.
+
+Evaluasi & Pengelolaan Produk Slow-Moving
+
+Pertimbangkan untuk melakukan strategi bundling produk kurang laku (Packaged Chocolate / Branded) dengan produk terlaris untuk menghabiskan stok, atau pertimbangkan untuk mengeliminasi produk yang tidak menguntungkan (menu rationalization).
+
+Upselling Produk Pendamping (Bakery)
+
+Karena transaksi kopi dan teh sangat tinggi, latih staf untuk menawarkan produk Bakery (seperti Scone atau Pastry) sebagai add-on saat pelanggan membeli minuman di pagi hari.
