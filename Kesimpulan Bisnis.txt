@@ -1,0 +1,47 @@
+---
+
+### **Kesimpulan Analisis Data Penjualan Untuk Keseluruhan Lokasi**
+
+1. **Pendapatan Total Bulanan**
+   - Pendapatan meningkat secara konsisten dari bulan Januari hingga Juni.
+   - Bulan dengan pendapatan tertinggi adalah bulan Juni dengan total pendapatan $166,486, menunjukkan adanya pertumbuhan yang positif setiap bulan. **(Perlu diinvestigasi lebih lanjut apakah ada faktor eksternal, seperti promosi atau musim, yang mempengaruhi kenaikan ini.)**
+
+2. **Transaksi Berdasarkan Hari**
+   - Aktivitas transaksi tertinggi terjadi pada Hari Senin, Kamis, dan Jumat, menunjukkan bahwa hari kerja memiliki tingkat transaksi yang lebih tinggi dibandingkan akhir pekan.
+   - Hari Sabtu adalah hari dengan transaksi terendah, yang mungkin menunjukkan perilaku pelanggan yang lebih sedikit berbelanja pada akhir pekan.
+3. **Transaksi Berdasarkan Jam**
+   - Jam 07.00 hingga 10.00 merupakan puncak transaksi, yang menunjukkan tingginya aktivitas pelanggan pada pagi hari. **(Mungkin pelanggan mencari minuman untuk memulai hari, menjadikan jam ini waktu yang strategis untuk promosi minuman hangat seperti kopi dan teh.)**
+   - Aktivitas menurun setelah jam 10.00, dengan jumlah transaksi terendah terjadi di malam hari. **(Mungkin perlu penyesuaian jam operasional atau kegiatan promosi di jam-jam sepi ini.)**
+
+4. **Kategori Produk Terlaris**
+   - Kopi adalah kategori dengan transaksi tertinggi (58,416 transaksi) diikuti oleh Teh (45,449 transaksi). Ini menunjukkan bahwa produk berbasis minuman adalah pendorong utama penjualan.
+   - Produk dengan transaksi rendah seperti Packaged Chocolate dan Branded menunjukkan peluang untuk strategi promosi atau penghapusan produk tidak laku. **(Pertimbangkan penawaran diskon atau bundling untuk produk ini agar lebih menarik bagi pelanggan.)**
+
+5. **Produk Terpopuler**
+   - Produk terlaris adalah Brewed Chai Tea, diikuti oleh Gourmet Brewed Coffee dan Barista Espresso, yang semuanya merupakan minuman panas. **(Produk-produk ini bisa mendapatkan promosi lebih intensif untuk mempertahankan dominasi pasar mereka.)**
+
+6. **Lokasi Penjualan**
+   - Lokasi Astoria menunjukkan kontribusi tertinggi terhadap total penjualan dibandingkan lokasi lainnya. **(Lokasi ini perlu difokuskan dalam strategi pemasaran lebih lanjut.)**
+   - Disarankan untuk meningkatkan strategi pemasaran dan operasional di wilayah ini guna memaksimalkan pendapatan. **(Evaluasi lebih dalam tentang faktor lokal yang mungkin berkontribusi terhadap hasil yang lebih baik di Astoria.)**
+   - Wilayah lain, seperti Hell's Kitchen dan Lower Manhattan, dapat menjadi target pengembangan dengan strategi promosi yang lebih menarik. **(Perlu analisis lebih lanjut mengenai demografi atau kebutuhan pasar di lokasi-lokasi ini.)**
+
+---
+
+### **Saran Terhadap Perusahaan**
+
+1. **Fokus pada Hari Kerja**
+   - Tingkatkan promosi dan stok produk selama hari kerja, terutama Senin, Kamis, dan Jumat. **(Pertimbangkan kampanye pemasaran atau diskon khusus untuk mendorong lebih banyak pembelian pada hari-hari ini.)**
+
+2. **Optimalisasi Jam Operasional**
+   - Pastikan ketersediaan produk utama seperti kopi dan teh pada jam sibuk (07.00-10.00) untuk memaksimalkan pendapatan. **(Periksa apakah ada produk lain yang perlu dipromosikan pada jam-jam tertentu untuk memanfaatkan waktu sibuk ini.)**
+
+3. **Promosi pada Hari Minggu**
+   - Adakan promosi khusus pada hari libur (Sabtu & Minggu) untuk meningkatkan transaksi di hari tersebut. **(Untuk hari Sabtu, bisa dicoba dengan memulai promosi lebih awal atau menambah variasi produk untuk menarik lebih banyak pelanggan.)**
+
+4. **Diversifikasi Produk**
+   - Pertimbangkan promosi atau inovasi pada produk yang kurang laku seperti Packaged Chocolate dan branded untuk meningkatkan daya tariknya. **(Bisa juga dengan memodifikasi kemasan atau menawarkan produk ini dalam paket bundling dengan produk terlaris.)**
+
+5. **Fokus pada Produk Populer**
+   - Tingkatkan promosi top 3 produk terlaris seperti Brewed Chai Tea, Gourmet Brewed Coffee, dan Barista Espresso untuk menjaga momentum penjualan. **(Perhatikan apakah ada tren musiman atau acara lokal yang bisa mendukung kampanye ini lebih lanjut.)**
+
+---
